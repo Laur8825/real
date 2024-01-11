@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 HELP.md
+=======
+>>>>>>> e989b02 (second commit)
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -18,6 +21,14 @@ target/
 *.iws
 *.iml
 *.ipr
+<<<<<<< HEAD
+=======
+*.mvn
+HELP.md
+connect.iml
+mvnw.cmd
+mvnw
+>>>>>>> e989b02 (second commit)
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,4 +41,8 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
+<<<<<<< HEAD
 .vscode/
+=======
+.vscode/
+>>>>>>> e989b02 (second commit)
