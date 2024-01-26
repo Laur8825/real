@@ -25,7 +25,6 @@ public class Employee {
     @Column(name = "email", nullable = false, unique = true)
     private String email;
 
-    // Assuming Employees can also be linked to Properties
     @ManyToMany(mappedBy = "employees", cascade = { CascadeType.MERGE, CascadeType.PERSIST })
     private Set<Property> properties = new HashSet<>();
 }
