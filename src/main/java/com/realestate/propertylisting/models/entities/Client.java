@@ -25,7 +25,6 @@ public class Client {
     @Column(name = "email", nullable = false, unique = true)
     private String email;
 
-    // Many-to-many relationship with Property
     @ManyToMany(mappedBy = "clients", cascade = { CascadeType.MERGE, CascadeType.PERSIST })
     private Set<Property> properties = new HashSet<>();
 
