@@ -1,11 +1,6 @@
 package com.realestate.propertylisting.services;
 
 import com.realestate.propertylisting.models.dtos.EmployeeDTO;
-<<<<<<< HEAD
-import org.springframework.stereotype.Service;
-=======
->>>>>>> origin/developer
-
 import java.util.List;
 import java.util.Optional;
 

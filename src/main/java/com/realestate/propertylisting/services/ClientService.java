@@ -6,10 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-<<<<<<< HEAD
-=======
-@Service
->>>>>>> origin/developer
+
 public interface ClientService {
 
     ClientDTO saveClient(ClientDTO clientDTO);

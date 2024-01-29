@@ -14,10 +14,6 @@ public class ClientServiceImpl implements ClientService {
 
     private final ClientRepository clientRepository;
 
-<<<<<<< HEAD
-=======
-    // Constructor-based dependency injection
->>>>>>> origin/developer
     public ClientServiceImpl(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
     }
